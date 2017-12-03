@@ -1,7 +1,7 @@
 # Transport-Mode-GPS-CNN
 Inferring transportation modes from GPS trajectories using a Convolutional Neural Network.
 
-Here is the project that I have done under my PhD research. The specific objective is to predict transportation modes (e.g., walk, bike, bus, driving, and train) from only GPS trajectories using Convolutional Neural Networks (CNNs). This project has been published in the journal of Transportation Research Part C: Emerging Technologies, as one the top-tier journals in the transportation field. The paper can be found and downloaded in https://authors.elsevier.com/a/1W8yQ,M0mR5c7L
+Here is the project that I have done under my PhD research. The specific objective is to predict transportation modes (e.g., walk, bike, bus, driving, and train) from only GPS trajectories using Convolutional Neural Networks (CNNs). This project has been published in the journal of Transportation Research Part C: Emerging Technologies, as one of the top-tier journals in the transportation field. The paper can be found and downloaded in https://authors.elsevier.com/a/1W8yQ,M0mR5c7L
 
 Here, I am going to share all related codes and dataset related to this project. Further information can be found in the paper. 
 
