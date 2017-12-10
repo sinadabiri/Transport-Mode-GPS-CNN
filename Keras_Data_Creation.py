@@ -3,9 +3,9 @@ import pickle
 import os
 from scipy.signal import savgol_filter
 
-filename = '../Combined Trajectory_Label_Geolife/Revised_KerasData+NoJerkOutlier+NoSmoothing.pickle'
+filename = '../Combined Trajectory_Label_Geolife/Revised_InstanceCreation+NoJerkOutlier+Smoothing.pickle'
 # Each of the following variables contain multiple lists, where each list belongs to a user
-with open('Revised_KerasData+NoJerkOutlier+NoSmoothing.pickle', 'rb') as f:
+with open(filename, 'rb') as f:
     Total_RelativeDistance, Total_Speed, Total_Acceleration, Total_Jerk, Total_BearingRate, Total_Label,\
     Total_InstanceNumber, Total_Instance_InSequence, Total_Delta_Time, Total_Velocity_Change = pickle.load(f, encoding='latin1')
 
