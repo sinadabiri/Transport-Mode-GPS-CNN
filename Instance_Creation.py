@@ -313,6 +313,6 @@ for z in range(len(Trajectory_Label_Array)):
     Total_Outlier.append(User_outlier)
     Total_Instance_InSequence = Total_Instance_InSequence + InstanceNumber
 
-with open('Revised_InstanceCreation+NoJerkOutlier+NOSmoothing.pickle', 'wb') as f:
+with open('Revised_InstanceCreation+NoJerkOutlier+Smoothing.pickle', 'wb') as f:
     pickle.dump([Total_RelativeDistance, Total_Speed, Total_Acceleration, Total_Jerk, Total_BearingRate, Total_Label,
                  Total_InstanceNumber, Total_Instance_InSequence, Total_Delta_Time, Total_Velocity_Change], f)
