@@ -1,5 +1,5 @@
 # Transport-Mode-GPS-CNN
-Inferring transportation modes from GPS trajectories using a Convolutional Neural Network.
+**Inferring transportation modes from GPS trajectories using a Convolutional Neural Network.**
 
 Here is the project that I have done under my PhD research. The specific objective is to predict transportation modes (e.g., walk, bike, bus, driving, and train) from only GPS trajectories using Convolutional Neural Networks (CNNs). This project has been published in the journal of Transportation Research Part C: Emerging Technologies, as one of the top-tier journals in the transportation field. The paper can be found and downloaded in https://authors.elsevier.com/a/1W8yQ,M0mR5c7L
 
@@ -7,5 +7,5 @@ Here, I am going to share all related codes and dataset related to this project.
 
 Further information about the methodology, results, and discussion are avaiable in the paper (the above link). 
 
-Paper Abstract.
+## Paper Abstract
 Identifying the distribution of users’ transportation modes is an essential part of travel demand analysis and transportation planning. With the advent of ubiquitous GPS-enabled devices (e.g., a smartphone), a cost-effective approach for inferring commuters’ mobility mode(s) is to leverage their GPS trajectories. A majority of studies have proposed mode inference models based on hand-crafted features and traditional machine learning algorithms. However, manual features engender some major drawbacks including vulnerability to traffic and environmental conditions as well as possessing human’s bias in creating efficient features. One way to overcome these issues is by utilizing Convolutional Neural Network (CNN) schemes that are capable of automatically driving high-level features from the raw input. Accordingly, in this paper, we take advantage of CNN architectures so as to predict travel modes based on only raw GPS trajectories, where the modes are labeled as walk, bike, bus, driving, and train. Our key contribution is designing the layout of the CNN’s input layer in such a way that not only is adaptable with the CNN schemes but represents fundamental motion characteristics of a moving object including speed, acceleration, jerk, and bearing rate. Furthermore, we ameliorate the quality of GPS logs through several data preprocessing steps. Using the clean input layer, a variety of CNN configurations are evaluated to achieve the best CNN architecture. The highest accuracy of 84.8% has been achieved through the ensemble of the best CNN configuration. In this research, we contrast our methodology with traditional machine learning algorithms as well as the seminal and most related studies to demonstrate the superiority of our framework. 
