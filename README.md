@@ -1,7 +1,7 @@
 # Transport-Mode-GPS-CNN
 
 ## Update
-We recently published an advanced version of this work in IEEE Transactions on Knowledge and Data Engineering, the second top venue in data mining and analysis, according to [Google Scholar](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_datamininganalysis)
+We recently published an advanced version of this work in IEEE Transactions on Knowledge and Data Engineering, the second top venue in data mining and analysis, according to [Google Scholar](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_datamininganalysis).
 In the new work, we develop a semi-supervised deep learning network for resolving the same problem. Also, the change-point detection model has been added to the architecture, which makes the mode detection framework more realistic. 
 
 You can find the new paper in various sources at [here](https://scholar.google.com/scholar?cluster=14415315697967890786&hl=en&as_sdt=0,5)
@@ -12,9 +12,9 @@ If you are interested in using codes here, I highly encourage you to use the cod
 
 If you are interested in this work and use the materials, please cite the following papers:
 
-(1) *Dabiri, Sina, et al. "Semi-Supervised Deep Learning Approach for Transportation Mode Identification Using GPS Trajectory Data." IEEE Transactions on Knowledge and Data Engineering (2019).*
+(1) **Dabiri, Sina, et al. "Semi-Supervised Deep Learning Approach for Transportation Mode Identification Using GPS Trajectory Data." IEEE Transactions on Knowledge and Data Engineering (2019).**
 
-(2) *Dabiri, Sina, and Kevin Heaslip. "Inferring transportation modes from GPS trajectories using a convolutional neural network." Transportation research part C: emerging technologies 86 (2018): 360-371.*
+(2) **Dabiri, Sina, and Kevin Heaslip. "Inferring transportation modes from GPS trajectories using a convolutional neural network." Transportation research part C: emerging technologies 86 (2018): 360-371.**
 
 **Inferring transportation modes from GPS trajectories using a Convolutional Neural Network.**
 
